@@ -1,2 +1,7 @@
 # CompGraphicsFinPracticalPractice
 
+# Bump mapping and tiling:
+The first shader used that was shown off in the earlier half of the semester in this class is bump mapping. Though it has been modified to account for tiling, which means that the textures can be scaled on the x and y axis. Firstly though, bump mapping is when a texture is given more depth by using a normal texture (a texture that uses the rgb values to modify the object normals) along with lighting calculations to add more depth and roughness to the texture itself. How it works is that the base texture along with the normal map is sampled first, and then the normal map on the x and y axis is multiplied with a slider property that controls the blend amount of the bump map effect. Then those values and the alpha value gets plugged into a 3D vector that is connected to a transform node that converts the tangents and normals to world space for lighting calculations to show the bump mapping and depth of the object, and so that gets plugged into a dot product node with the main light direction being normalized, and being saturated and multplied with negative -1 gets multiplied with the sampled base texture and the blend amount is controled with the lerp node. Though a Tiling and Offset node with the tiling 2D vector connected in the tiling port is used to control the tiling of both the base and normal textures. 
+
+<img width="1462" height="663" alt="image" src="https://github.com/user-attachments/assets/c71d8603-5771-421f-b91f-55fe0c42c72e" />
+
