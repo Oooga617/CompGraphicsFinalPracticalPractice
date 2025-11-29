@@ -52,3 +52,4 @@ This was used in the scene because in Contra there is water visible at the botto
 
 ALMOST ALL OF THE TEXTURES USED IN THIS PROJECT ARE MADE BY ME IN SUBSTANCE PAINTER 3D, AS FOR THE TREE SPRITES IT COMES FROM THIS WEBSITE FOR REFERENCE: 
 https://opengameart.org/content/tree-collection-v26-bleeds-game-art
+THE SKYBOX USED IN THE SCENE COMES FROM THIS FREE UNITY ASSET PACK: https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
